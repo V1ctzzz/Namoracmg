@@ -4,64 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="automation.js">
 
     <title>Bem vinda! Nicole</title>
-    <style>
-        body {
-            background: #a10606;
-        }
-
-        #pedido {
-            width: 500px;
-            height: 500px;
-            background: whitesmoke;
-            text-align: center;
-            margin: auto;
-            border-radius: 40px;
-            padding-top: 40px;
-            font-family: 'Dancing Script', cursive;
-            font-weight: bolder;
-
-
-        }
-
-
-        #sim {
-
-            height: 40px;
-            width: 60px;
-            border-radius: 10px;
-            background-color: #f03e3e;
-            color: whitesmoke;
-            margin-left: -100px;
-        }
-
-        #nao {
-            position: absolute;
-            margin-left: 70px;
-            height: 40px;
-            width: 60px;
-            border-radius: 10px;
-            background-color: #f03e3e;
-            color: whitesmoke;
-            margin-left: 10px;
-            
-        }
-
-        #gatinho {
-            width: 200px;
-            height: 250px;
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            margin-left: -105px;
-            margin-top: -80px;
-            border-radius: 15px;
-        }
-    </style>
 </head>
 
 <body>
@@ -72,32 +18,7 @@
             <a href="https://www.instagram.com/p/CoWU1Q-s1Pn/?hl=en"><button id="sim">Sim!</button></a> 
             <button onmouseover="fuja()" id="nao">Nao!</button>
             <img id="gatinho" src="https://media2.giphy.com/media/BZTgEDfvMwiZKeQ5nh/giphy.gif?cid=ecf05e47lusvs6vbn6won4z8myar37kno55uj21otkwmfl2g&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="">
-
-
         </div>
     </div>
-
-    <script>
-        function fuja(){
-            var botaoNao = document.getElementById("nao")
-
-            var larguraJanela = window.innerWidth;
-            var alturaJanela = window.innerHeight;
-
-            var maxX = larguraJanela - botaoNao.offsetWidth;
-            var maxY = alturaJanela - botaoNao.offsetHeight;
-
-            var aleatorioX = Math.floor(Math.random() * maxX);
-            var aleatorioY = Math.floor(Math.random() * maxY);
-
-            botaoNao.style.left = aleatorioX + "px";
-            botaoNao.style.top = aleatorioY + "px";
-
-
-
-        }
-
-    </script>
 </body>
-
 </html>
