@@ -1,2 +1,3 @@
 # Namoracmg
-Projeto simples para mandar para o mozao 
+Projeto simples para o dia dos namorados
+utilizando HTML CSS JAVASCRIPT Hospedagem de sites
