@@ -1,3 +1,2 @@
 # Namoracmg
-Projeto simples para o dia dos namorados
-utilizando HTML CSS JAVASCRIPT Hospedagem de sites
+Project created to improve my knowledge in front end through a simple game
